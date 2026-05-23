@@ -7,14 +7,6 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing
 ![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)
 ![React](https://img.shields.io/badge/react-18.2.0-blue.svg)
 
----
-
-## 🌐 Live Demo
-
-- **Frontend:** [https://tap-academy-frontend.vercel.app](https://tap-academy-frontend.vercel.app)
-- **Backend API:** [https://tap-academy-dun.vercel.app](https://tap-academy-dun.vercel.app)
-
----
 
 ## ✨ Features
 
