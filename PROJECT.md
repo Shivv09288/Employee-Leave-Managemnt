@@ -8,13 +8,6 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing
 
 ---
 
-## 🌐 Live Demo
-
-- **Frontend:** [https://tap-academy-frontend.vercel.app](https://tap-academy-frontend.vercel.app)
-- **Backend API:** [https://tap-academy-dun.vercel.app](https://tap-academy-dun.vercel.app)
-
----
-
 ## ✨ Features
 
 ### Employee Features
