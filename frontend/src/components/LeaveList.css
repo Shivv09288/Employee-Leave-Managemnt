@@ -1,0 +1,120 @@
+.leave-list {
+  display: grid;
+  gap: 20px;
+}
+
+.leave-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.leave-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.leave-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-approved {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-rejected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.leave-type {
+  color: #667eea;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.leave-dates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+}
+
+.leave-dates div {
+  font-size: 14px;
+}
+
+.leave-dates strong {
+  color: #666;
+  font-weight: 600;
+}
+
+.leave-reason,
+.manager-comment {
+  margin-top: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+}
+
+.leave-reason strong,
+.manager-comment strong {
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.leave-reason p,
+.manager-comment p {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.manager-comment {
+  background: #e7f3ff;
+}
+
+.btn-cancel {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-cancel:hover {
+  background: #c82333;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 16px;
+}
